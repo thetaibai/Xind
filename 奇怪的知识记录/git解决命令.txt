@@ -1,0 +1,3 @@
+移除旧的origin ：git remote remove origin
+再重新建立新的origin ： git remote add origin http://github.com/×××
+重新push就可以了
