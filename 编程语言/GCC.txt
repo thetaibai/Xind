@@ -1,0 +1,1 @@
+gcc -S example.c 将程序转成汇编
