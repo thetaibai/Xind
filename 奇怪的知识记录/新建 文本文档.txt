@@ -2,6 +2,17 @@
 
 任务调度算法
 
-n毫秒 -1 & Cnt == 偏移量                 可以表示准备好了
+n毫秒  & Cnt - 1 == 偏移量                 可以表示准备好了
 
 使用了位操作代替求余 a%b 等价于 a&(b-1)
+
+自动挡挡位
+P（Parking） 停车档
+R（Reverse）倒挡
+N（Neutral）空挡
+D（Drive）    前进档
+S/L（second gear）2档，低速前进档
+L（Low）低速档
+
+
+TCAN284x  代替 TLE9262
