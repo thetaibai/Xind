@@ -30,3 +30,8 @@ TCAN284x  代替 TLE9262
 
 测试方法2，在闲置函数中使用nop指令，计算大概闲置的时间，用count在软件中计算，然后计算出负载率
 
+
+DARMSTM.DLL
+-pSTM32F103C6
+PORTA.1
+
