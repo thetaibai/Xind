@@ -35,3 +35,6 @@ DARMSTM.DLL
 -pSTM32F103C6
 PORTA.1
 
+
+protues 内部上拉通常无效，需要使用外部上拉，或者改成内部下拉
+
