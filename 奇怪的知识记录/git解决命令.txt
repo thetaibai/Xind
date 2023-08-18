@@ -28,3 +28,12 @@ git config --global --unset https.proxy
 error: RPC failed; curl 28 Recv failure: Connection was reset fatal: expected flush after ref listing
 git config --global http.sslVerify "false"
 
+
+4.通过系统命令取消代理：
+
+unset http_proxy
+unset ftp_proxy
+unset all_proxy
+unset https_proxy
+unset no_proxy
+
